@@ -20,7 +20,7 @@ const styles = {
   textStyle: {
     fontSize: 20,
     color: 'white',
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   }
 };
 
