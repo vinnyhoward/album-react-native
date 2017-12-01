@@ -23,7 +23,7 @@ export default class App extends Component<{}> {
   render() {
     return (
       <View>
-      <Header />
+      <Header headerText={'Albums'} />
       </View>
     );
   }
