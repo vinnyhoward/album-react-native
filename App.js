@@ -21,10 +21,10 @@ import {
 //     'Shake or press menu button for dev menu',
 // });
 
-export default class App extends Component<{}> {
+export default class App extends Component {
   render() {
     return (
-      <View>
+      <View style={{ flex: 1 }}>
       <StatusBar
         backgroundColor="blue"
         barStyle="light-content"
