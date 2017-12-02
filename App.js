@@ -3,13 +3,15 @@
  * https://github.com/facebook/react-native
  * @flow
  */
-import Header from './src/components/header'
+import Header from './src/components/header';
+import AlbumList from './src/components/AlbumList';
 import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  StatusBar
 } from 'react-native';
 
 // const instructions = Platform.select({
@@ -23,7 +25,12 @@ export default class App extends Component<{}> {
   render() {
     return (
       <View>
+      <StatusBar
+        backgroundColor="blue"
+        barStyle="light-content"
+      />
       <Header headerText={'Albums'} />
+      <AlbumList />
       </View>
     );
   }
